@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HerokuAppTestSuite">
+   	 <listeners>
+		
+		<listener class-name="com.qa.utils.RAnalyzerRunTime" />
+	</listeners> 
+	
+
+  	<test name="Validate HerokuApp functionality on Chrome">
+		
+		<parameter name="browser" value="chrome" />
+		<classes>
+ 		 <class name="ui.UserRegistrationTest" /> 
+ 		 <class name="ui.PerformChallengeTest" /> 
+ 		<class name="ui.LeaderBoardPageTest" />  
+ 		</classes>
+  	</test> 
+  	
+		<test name="Rest API Automation">
+		
+		
+		<classes>
+ 		
+ 		<class name="api.UserRegAuthnApiTest" />
+ 		<class name="api.UserLeaderBoardApiTest" />
+ 		
+ 		</classes>
+  	</test> 
+  	
+<!--		<test name="Validate HerokuApp functionality on Firefox">
+		
+		<parameter name="browser" value="firefox" />
+		
+		<classes>
+ 		<class name="com.qa.tests.UserRegistrationTest" />
+    		<class name="com.qa.tests.PerformChallengeTest" />
+ 		<class name="com.qa.tests.LeaderBoardPageTest" /> 
+
+		</classes>
+		
+		
+	</test> --> 
+</suite> <!-- Suite -->

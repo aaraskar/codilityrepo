@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Validate HerokuApp functionality on Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ui.LeaderBoardPageTest">
+        <methods>
+          <include name="afterMethodConfig"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="verifyLeaderBoardTest"/>
+          <include name="afterTestCleanup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ui.LeaderBoardPageTest -->
+      <class name="ui.PerformChallengeTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTestCleanup"/>
+          <include name="afterMethodConfig"/>
+          <include name="performTask"/>
+        </methods>
+      </class> <!-- ui.PerformChallengeTest -->
+    </classes>
+  </test> <!-- Validate HerokuApp functionality on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,264 @@
+Request method:	POST
+Request URI:	https://supervillain.herokuapp.com/auth/user/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJhanIxMTM0IiwiZW1haWwiOiJhaml0LnJhc2thcjE5ODRAZ21haWwuY29tIiwiaWF0IjoxNjUzMzYwNjUzLCJleHAiOjE2NTM2MTk4NTN9.GwPsogkazUuYVjEPso_Knq-5RPNi-pgmGQXtRwvjWZjOsse-xso2iasea0IB10nwH8ZFspLRQ0u3iudVKEZ9vQ
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "welcome1",
+    "username": "ab241628"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Tue, 24 May 2022 03:16:32 GMT
+Content-Length: 0
+Via: 1.1 vegur
+Request method:	GET
+Request URI:	https://supervillain.herokuapp.com/v1/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJhanIxMTM0IiwiZW1haWwiOiJhaml0LnJhc2thcjE5ODRAZ21haWwuY29tIiwiaWF0IjoxNjUzMzYwNjUzLCJleHAiOjE2NTM2MTk4NTN9.GwPsogkazUuYVjEPso_Knq-5RPNi-pgmGQXtRwvjWZjOsse-xso2iasea0IB10nwH8ZFspLRQ0u3iudVKEZ9vQ
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 934
+Etag: W/"3a6-TSdi8r/cWhPVrhoLymyo3Jo6Wag"
+Date: Tue, 24 May 2022 03:16:33 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "username": "565ec143-a41b-454b-8b94-1fb8a7cca897",
+        "score": 5000
+    },
+    {
+        "username": "fd44ff77-0164-4685-b32f-3bbdcf13b98a",
+        "score": 5000
+    },
+    {
+        "username": "AllenEdwards",
+        "score": 4000
+    },
+    {
+        "username": "testuser",
+        "score": 758
+    },
+    {
+        "username": "testmay22",
+        "score": 489
+    },
+    {
+        "username": "testuser1",
+        "score": 201
+    },
+    {
+        "username": "ab245339",
+        "score": 200
+    },
+    {
+        "username": "ab240424",
+        "score": 200
+    },
+    {
+        "username": "ab241644",
+        "score": 200
+    },
+    {
+        "username": "ab243716",
+        "score": 200
+    },
+    {
+        "username": "ab244536",
+        "score": 200
+    },
+    {
+        "username": "ab244938",
+        "score": 200
+    },
+    {
+        "username": "string25May",
+        "score": 200
+    },
+    {
+        "username": "ab243717",
+        "score": 200
+    },
+    {
+        "username": "ab242843",
+        "score": 200
+    },
+    {
+        "username": "ab243906",
+        "score": 200
+    },
+    {
+        "username": "ab244845",
+        "score": 200
+    },
+    {
+        "username": "ab245351",
+        "score": 200
+    },
+    {
+        "username": "ab240138",
+        "score": 200
+    },
+    {
+        "username": "ab241002",
+        "score": 20
+    },
+    {
+        "username": "ab240747",
+        "score": 20
+    },
+    {
+        "username": "string24May",
+        "score": 10
+    },
+    {
+        "username": "string25Maynew",
+        "score": 10
+    },
+    {
+        "username": "string",
+        "score": 0
+    }
+]
+Request method:	POST
+Request URI:	https://supervillain.herokuapp.com/auth/user/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJhanIxMTM0IiwiZW1haWwiOiJhaml0LnJhc2thcjE5ODRAZ21haWwuY29tIiwiaWF0IjoxNjUzMzYwNjUzLCJleHAiOjE2NTM2MTk4NTN9.GwPsogkazUuYVjEPso_Knq-5RPNi-pgmGQXtRwvjWZjOsse-xso2iasea0IB10nwH8ZFspLRQ0u3iudVKEZ9vQ
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "welcome1",
+    "username": "ab241628"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 259
+Etag: W/"103-pvOI3POcwBxdDJtXPTy2wf3Bu+o"
+Date: Tue, 24 May 2022 03:16:35 GMT
+Via: 1.1 vegur
+
+{
+    "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFiMjQxNjI4IiwiZXhwaXJlc0luIjoiMyBtaW4iLCJpYXQiOjE2NTMzNjIxOTUsImV4cCI6MTY1MzM2MjM3NX0.9aKHyX5uURlNUKjWthH6MRRdpEqStdL7LX5_WwoADn5NWKBNaSAyF_TfiorKf4DHqBqy5EUZD3gIrbvPECpvPQ",
+    "expiresIn": "3 min"
+}
+Request method:	POST
+Request URI:	https://supervillain.herokuapp.com/v1/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJhanIxMTM0IiwiZW1haWwiOiJhaml0LnJhc2thcjE5ODRAZ21haWwuY29tIiwiaWF0IjoxNjUzMzYwNjUzLCJleHAiOjE2NTM2MTk4NTN9.GwPsogkazUuYVjEPso_Knq-5RPNi-pgmGQXtRwvjWZjOsse-xso2iasea0IB10nwH8ZFspLRQ0u3iudVKEZ9vQ
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "score": "20",
+    "username": "ab241636"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 44
+Etag: W/"2c-Ne7/VH8/Qgve0R5CLf3Mr+gUUVI"
+Date: Tue, 24 May 2022 03:16:37 GMT
+Via: 1.1 vegur
+
+{
+    "status": "success",
+    "message": "User added."
+}
+Request method:	PUT
+Request URI:	https://supervillain.herokuapp.com/v1/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJhanIxMTM0IiwiZW1haWwiOiJhaml0LnJhc2thcjE5ODRAZ21haWwuY29tIiwiaWF0IjoxNjUzMzYwNjUzLCJleHAiOjE2NTM2MTk4NTN9.GwPsogkazUuYVjEPso_Knq-5RPNi-pgmGQXtRwvjWZjOsse-xso2iasea0IB10nwH8ZFspLRQ0u3iudVKEZ9vQ
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "score": "200",
+    "username": "ab241636"
+}
+HTTP/1.1 204 No Content
+Server: Cowboy
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Date: Tue, 24 May 2022 03:16:39 GMT
+Via: 1.1 vegur
+Request method:	GET
+Request URI:	https://supervillain.herokuapp.com/v1/user/ab241628
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	name=ab241628
+Headers:		Authorization=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFiMjQxNjI4IiwiZXhwaXJlc0luIjoiMyBtaW4iLCJpYXQiOjE2NTMzNjIxOTUsImV4cCI6MTY1MzM2MjM3NX0.9aKHyX5uURlNUKjWthH6MRRdpEqStdL7LX5_WwoADn5NWKBNaSAyF_TfiorKf4DHqBqy5EUZD3gIrbvPECpvPQ
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Etag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+Date: Tue, 24 May 2022 03:16:40 GMT
+Via: 1.1 vegur
+
+[
+    
+]

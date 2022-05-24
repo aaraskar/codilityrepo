@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [HerokuApp]" parallel="methods">
+  <test thread-count="1" name="Validate HerokuApp functionality on Chrome(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.tests.UserRegistrationTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethodConfig"/>
+          <include name="beforeMethod"/>
+          <include name="afterTestCleanup"/>
+          <include name="registerSingleUserTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.tests.UserRegistrationTest -->
+    </classes>
+  </test> <!-- Validate HerokuApp functionality on Chrome(failed) -->
+</suite> <!-- Failed suite [HerokuApp] -->
